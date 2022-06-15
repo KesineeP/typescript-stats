@@ -1,0 +1,27 @@
+{
+  "name": "stats",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:build": "tsc -w",
+    "start:run": "nodemon build/index.js",
+    "start": "concurrently npm:start:*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KesineeP/typescript-stats.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KesineeP/typescript-stats/issues"
+  },
+  "homepage": "https://github.com/KesineeP/typescript-stats#readme",
+  "dependencies": {
+    "@types/node": "^17.0.43",
+    "concurrently": "^7.2.2",
+    "nodemon": "^2.0.16"
+  }
+}
